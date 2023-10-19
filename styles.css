@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+    font-family: sans-serif, monospace;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    padding: auto;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #ECE6C2;
+    color:#6F5643;
+    font-size: 110%;
+    text-align: center;
+}
+
+h1 {
+    color: #6F5643;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p, h3 {
+    color: #CC6B49;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+
+}
+
+ul {
+    margin: 0;
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+li {
+    margin: 0;
+    font-size: 110%;
+}
+
+a:hover {
+    color: #CC6B49;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6F5643;
+}
+
+#weather.card {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    width: 20rem;
+    text-align: center;
+}
+
+#Description {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    margin: 35px;
+    margin-block: 10px;
+}
+
+
+.navbar{
+    background-color: #73BDA8;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    justify-content: center;
+}
