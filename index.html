@@ -43,7 +43,7 @@
             const updateButton = document.getElementById('update-btn');
               if (updateButton) {
                 updateButton.addEventListener("click", function(){
-                  fetch("http://api.weatherapi.com/v1/current.json?key="+API_KEY+"&q=Singapore&aqi=no", {
+                  fetch("https://api.weatherapi.com/v1/current.json?key="+API_KEY+"&q=Singapore&aqi=no", {
                     "method": "GET",
                     "headers": {
           
